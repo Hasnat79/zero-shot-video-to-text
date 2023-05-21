@@ -164,7 +164,8 @@ class CLIPTextGenerator:
 
         # Initialize CLIP
         self.clip, self.clip_preprocess = clip.load("ViT-B/32", device=self.device,
-                                                    download_root=clip_checkpoints, jit=False)
+                                                    #download_root=clip_checkpoints, 
+                                                    jit=False)
         self.clip = self.clip.eval()
         # Freeze CLIP weights
         for param in self.clip.parameters():
