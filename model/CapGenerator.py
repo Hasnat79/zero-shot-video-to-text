@@ -352,7 +352,7 @@ class CLIPTextGenerator:
             logging.debug(f'Unscaled CLIP loss: {sum(clip_losses)}, Unscaled Fluency loss: {sum(fluency_losses)}')
 
         avg_frame_similarities = torch.cat(avg_frame_similarities)
-        caption_to_all_frame_prob = nn.functional.softmax(avg_frame_similarities * self.clip_scale)
+        caption_to_all_frame_prob = nn.functional.softmax(avg_frame_similarities * self.clip_scale, dim=0)
         caption_to_language_prob = nn.functional.softmax(torch.cat(avg_perplexities, dim=0) * self.ce_scale, 0)
         mixed_score = caption_to_all_frame_prob * caption_to_language_prob
 
