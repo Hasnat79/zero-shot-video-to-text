@@ -44,6 +44,8 @@ def get_parser():
     parser.add_argument("--pairs_path", type=str, default="")
 
     parser.add_argument('--data_path', type=str, default='/home/work/Datasets/MSR-VTT/examples/video7157.mp4')
+    parser.add_argument('--start_sec', type=float, default=0)
+    parser.add_argument('--end_sec', type=float, default=1000)
     parser.add_argument('--run_type',
                         default='caption_images',
                         nargs='?',
@@ -82,7 +84,7 @@ def filter_video(image_fts, similiarities):
 def get_clip_video_frames(video_path, clip_preprocess):
     cap = cv2.VideoCapture(video_path)
     FPS = cap.get(cv2.CAP_PROP_FPS)
-    sample_time = FPS // 3
+    sample_time = FPS // 3  # default to sample 3 frames per second
     imgs = []
 
     i = 0
@@ -104,16 +106,63 @@ def get_clip_video_frames(video_path, clip_preprocess):
 
     return images
 
+# sample frames from videos for desired period designated by start_sec and end_sec
+# To do!
+
+def get_clip_video_frames_2(video_path, start_sec, end_sec, clip_preprocess):
+
+    cap = cv2.VideoCapture(video_path)
+    FPS = cap.get(cv2.CAP_PROP_FPS)
+    sample_time = FPS // 3  # default to sample 3 frames per second
+    # get total frames
+    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+
+    imgs = []
+
+
+    assert start_sec < end_sec, "start_sec should be smaller than end_sec"
+
+    # only sample between start_sec and end_sec
+    start_frame = np.floor(start_sec) * FPS
+    end_frame = min(np.ceil(end_sec) * FPS, total_frames)
+
+    cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
+    i = start_frame
+    while (i <= end_frame and cap.isOpened()):
+        ret, cv2_im = cap.read()
+
+        if ret and i % sample_time == 0:
+            converted = cv2.cvtColor(cv2_im, cv2.COLOR_BGR2RGB)
+            pil_im = Image.fromarray(converted)
+            imgs.append(pil_im)
+        elif not ret:
+            break
+
+        i += 1
+
+    cap.release()
+
+    images = torch.cat([clip_preprocess(x).unsqueeze(0) for x in imgs])
+
+    return images
+
+
+
 def get_clip_image(image_path, clip_preprocess):
     images = torch.cat([clip_preprocess(Image.open(image_path)).unsqueeze(0)])
 
     return images
 
-def run_video(args, video_path):
+def run_video(args, video_path, start_sec, end_sec):
+
+    print('Generating captions for video: {} between {} s and {} s'.format(video_path, start_sec, end_sec))
+
     device = "cuda" if torch.cuda.is_available() else "cpu"
+    print('device: ', device)
     text_generator = CLIPTextGenerator(**vars(args))
 
-    video_frames = get_clip_video_frames(video_path, text_generator.clip_preprocess).to(device)
+    # video_frames = get_clip_video_frames(video_path, text_generator.clip_preprocess).to(device)
+    video_frames = get_clip_video_frames_2(video_path, start_sec, end_sec, text_generator.clip_preprocess).to(device)
 
     with torch.no_grad():
         frames_fts = text_generator.clip.encode_image(video_frames).detach()
@@ -140,7 +189,7 @@ def run_image(args, image_path):
 
     clip_sorted_captions, mixed_sorted_captions, decoded_options, beam_caps = text_generator.generate(image_fts)
 
-    print(clip_sorted_captions)
+    # print(clip_sorted_captions)
 
     return clip_sorted_captions[0]
 
@@ -149,6 +198,8 @@ if __name__ == "__main__":
     cli_args = get_parser().parse_args()
 
     if cli_args.run_type == 'caption_videos':
-        run_video(cli_args, cli_args.data_path)
+        caption = run_video(cli_args, cli_args.data_path, cli_args.start_sec, cli_args.end_sec)
+        print('-----Caption:',  caption)
+
     elif cli_args.run_type == 'caption_images':
         run_image(cli_args, cli_args.data_path)

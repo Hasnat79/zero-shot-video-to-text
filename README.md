@@ -21,6 +21,16 @@ pip3 install clip-by-openai
 pip install chardet
 ```
 
+### For ActivityNet data
+```bash
+python run.py --token_wise --run_type caption_videos --data_path ../data/ActivityNet_200/validation/Mixing_drinks/yjazHd6a5SQ.mp4 --start_sec 0.0 --end_sec 17.87
+```
+
+```bash
+python run.py --token_wise --randomized_prompt --run_type caption_videos --data_path examples/example_video.mp4
+```
+
+
 
 ## Usage
 

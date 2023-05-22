@@ -340,7 +340,7 @@ class CLIPTextGenerator:
         caption_to_language_prob = nn.functional.softmax(torch.cat(avg_perplexities, dim=0) * self.ce_scale, 0)
         mixed_score = caption_to_all_frame_prob * caption_to_language_prob
 
-        clip_ordered_caption_prob, clip_caption_ordering = avg_frame_similarities.sort(descending=True)
+        clip_ordered_caption_prob, clip_caption_ordering = avg_frame_similarities.sort(descending=True) # higher is better
         mixed_ordered_caption_prob, mixed_caption_ordering = mixed_score.sort(descending=True)
         logging.debug(f"The 'best' clip score & sorted indices: "
                       f"{list(zip(clip_ordered_caption_prob.tolist(), clip_caption_ordering.tolist()))}")
