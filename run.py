@@ -114,13 +114,17 @@ def get_clip_video_frames_2(video_path, start_sec, end_sec, clip_preprocess):
     sample_time = FPS // 3  # default to sample 3 frames per second
     # get total frames
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    print('total_frames: ', total_frames)
+    print('total duration: ', total_frames / FPS)
     imgs = []
     assert start_sec < end_sec, "start_sec should be smaller than end_sec"
 
     # only sample between start_sec and end_sec
     start_frame = np.floor(start_sec) * FPS
     end_frame = min(np.ceil(end_sec) * FPS, total_frames)
-
+    print('start_frame: ', start_frame)
+    print('end_frame: ', end_frame)
+    
     cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
     i = start_frame
     while (i <= end_frame and cap.isOpened()):
