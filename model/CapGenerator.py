@@ -109,7 +109,9 @@ class CLIPTextGenerator:
                                         'Image shows', 'Picture shows', 'Photo shows', 
                                         'Image showing', 'Picture showing', 'Photo showing', ]
             elif run_type == 'caption_videos':
-                self.context_options = ['Video of', 'Video shows', 'Video showing']
+                self.context_options = ['Video of', 'Video shows', 'Video showing', 'Video describes', 'Video about',
+                                        'Video describing', 'Video depicting', 'Video depicts', 'Video displays',
+                                        'Video displays', 'Video features', 'Video featuring', 'Video highlights',]
             else:
                 raise ValueError(f'Unknown run type: {run_type}')
 

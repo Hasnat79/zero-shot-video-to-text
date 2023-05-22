@@ -107,8 +107,6 @@ def get_clip_video_frames(video_path, clip_preprocess):
     return images
 
 # sample frames from videos for desired period designated by start_sec and end_sec
-# To do!
-
 def get_clip_video_frames_2(video_path, start_sec, end_sec, clip_preprocess):
 
     cap = cv2.VideoCapture(video_path)
@@ -116,10 +114,7 @@ def get_clip_video_frames_2(video_path, start_sec, end_sec, clip_preprocess):
     sample_time = FPS // 3  # default to sample 3 frames per second
     # get total frames
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-
     imgs = []
-
-
     assert start_sec < end_sec, "start_sec should be smaller than end_sec"
 
     # only sample between start_sec and end_sec
