@@ -120,11 +120,11 @@ def get_clip_video_frames_2(video_path, start_sec, end_sec, clip_preprocess):
     assert start_sec < end_sec, "start_sec should be smaller than end_sec"
 
     # only sample between start_sec and end_sec
-    start_frame = np.floor(start_sec) * FPS
-    end_frame = min(np.ceil(end_sec) * FPS, total_frames)
+    start_frame = int(np.floor(start_sec) * FPS)
+    end_frame = min(int(np.ceil(end_sec) * FPS), total_frames)
     print('start_frame: ', start_frame)
     print('end_frame: ', end_frame)
-    
+
     cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
     i = start_frame
     while (i <= end_frame and cap.isOpened()):
