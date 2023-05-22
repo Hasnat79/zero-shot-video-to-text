@@ -173,7 +173,7 @@ def run_video(args, video_path, start_sec, end_sec):
 
     clip_sorted_captions, mixed_sorted_captions, decoded_options, beam_caps = text_generator.generate(image_fts)
 
-    print(clip_sorted_captions)
+    # print(clip_sorted_captions)
 
     return clip_sorted_captions[0]
 

@@ -44,6 +44,7 @@ class CLIPTextGenerator:
                  seed=0,
                  lm_model='gpt-2',
                  clip_checkpoints='./clip_checkpoints',
+                 run_type = 'caption_images',
                  target_seq_length=15,
                  randomized_prompt=False,
                  token_wise=False,
@@ -103,13 +104,20 @@ class CLIPTextGenerator:
         # Below options must be 2 tokens only to avoid alignment issues
         if randomized_prompt:
             print('using random prompts...')
-            self.context_options = ['Image of', 'Picture of', 'Photo of', 'Video of',
-                                    'Image shows', 'Picture shows', 'Photo shows', 'Video shows',
-                                    'Image showing', 'Picture showing', 'Photo showing', 'Video showing']
+            if run_type == 'caption_images':
+                self.context_options = ['Image of', 'Picture of', 'Photo of', 
+                                        'Image shows', 'Picture shows', 'Photo shows', 
+                                        'Image showing', 'Picture showing', 'Photo showing', ]
+            elif run_type == 'caption_videos':
+                self.context_options = ['Video of', 'Video shows', 'Video showing']
+            else:
+                raise ValueError(f'Unknown run type: {run_type}')
+
             prompt_len = 2
         else:
             self.context_options = ['']
             prompt_len = 0
+      
         test_prefixes = [self.context_prefix + choice for choice in self.context_options]
         test_generated_tokens = self.lm_tokenizer.batch_encode_plus(
             test_prefixes, return_tensors='pt', return_attention_mask=False, padding=True)["input_ids"].to(self.device)
