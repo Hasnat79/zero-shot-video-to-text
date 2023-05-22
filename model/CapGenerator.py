@@ -45,7 +45,7 @@ class CLIPTextGenerator:
                  lm_model='gpt-2',
                  clip_checkpoints='./clip_checkpoints',
                  run_type = 'caption_images',
-                 target_seq_length=15,
+                 target_seq_length=20,
                  randomized_prompt=False,
                  token_wise=False,
                  num_dummy_tokens=5,
@@ -82,6 +82,11 @@ class CLIPTextGenerator:
             self.lm_tokenizer = GPT2Tokenizer.from_pretrained('gpt2-medium')
             self.lm_model = GPT2LMHeadModel.from_pretrained('gpt2-medium', output_hidden_states=True)
             self.context_prefix = self.lm_tokenizer.bos_token
+        elif lm_model == 'gpt-3':
+            # to do, try gpt-3
+            pass
+
+
         self.lm_tokenizer.pad_token = self.lm_tokenizer.eos_token
         self.lm_model.to(self.device)
         self.lm_model.eval()
@@ -111,7 +116,8 @@ class CLIPTextGenerator:
             elif run_type == 'caption_videos':
                 self.context_options = ['Video of', 'Video shows', 'Video showing', 'Video describes', 'Video about',
                                         'Video describing', 'Video depicting', 'Video depicts', 'Video displays',
-                                        'Video displays', 'Video features', 'Video featuring', 'Video highlights',]
+                                        'Video displaying', 'Video features', 'Video featuring', 'Video highlights',
+                                        'Video illustrates', 'Video illustrating', 'Video highlighting', 'Video presents',]
             else:
                 raise ValueError(f'Unknown run type: {run_type}')
 
