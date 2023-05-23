@@ -45,7 +45,7 @@ class CLIPTextGenerator:
                  lm_model='gpt-2',
                  clip_checkpoints='./clip_checkpoints',
                  run_type = 'caption_images',
-                 target_seq_length=20,
+                 target_seq_length=25,
                  randomized_prompt=False,
                  token_wise=False,
                  num_dummy_tokens=5,
@@ -114,14 +114,19 @@ class CLIPTextGenerator:
                                         'Image shows', 'Picture shows', 'Photo shows', 
                                         'Image showing', 'Picture showing', 'Photo showing', ]
             elif run_type == 'caption_videos':
-                self.context_options = ['Video of', 'Video shows', 'Video showing', 'Video describes', 'Video about',
-                                        'Video describing', 'Video depicting', 'Video depicts', 'Video displays',
-                                        'Video displaying', 'Video features', 'Video featuring', 'Video highlights',
-                                        'Video illustrates', 'Video illustrating', 'Video highlighting', 'Video presents',]
+
+                # self.context_options = ['Video of', 'Video shows', 'Video showing', 'Video describes', 'Video about',
+                #                         'Video describing', 'Video depicting', 'Video depicts', 'Video displays',
+                #                         'Video displaying', 'Video features', 'Video featuring', 'Video highlights',
+                #                         'Video illustrates', 'Video illustrating', 'Video highlighting', 'Video presents',]
+
+                self.context_options = ['A video of a person']
             else:
                 raise ValueError(f'Unknown run type: {run_type}')
 
-            prompt_len = 2
+            # prompt_len = 2
+            prompt_len = 5
+
         else:
             self.context_options = ['']
             prompt_len = 0
