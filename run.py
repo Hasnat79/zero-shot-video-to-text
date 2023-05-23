@@ -199,6 +199,7 @@ if __name__ == "__main__":
     if cli_args.run_type == 'caption_videos':
         caption = run_video(cli_args, cli_args.data_path, cli_args.start_sec, cli_args.end_sec)
         print('-----Caption:',  caption)
+        print()
 
     elif cli_args.run_type == 'caption_images':
         run_image(cli_args, cli_args.data_path)
