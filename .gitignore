@@ -129,3 +129,5 @@ dmypy.json
 exp/
 # Pyre type checker
 .pyre/
+# custom
+data/
