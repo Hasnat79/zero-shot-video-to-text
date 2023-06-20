@@ -85,6 +85,9 @@ class CLIPTextGenerator:
         elif lm_model == 'gpt-3':
             # to do, try gpt-3
             pass
+        elif lm_model == 'opt':
+
+            pass
 
 
         self.lm_tokenizer.pad_token = self.lm_tokenizer.eos_token
