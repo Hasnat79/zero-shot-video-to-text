@@ -1,0 +1,37 @@
+{
+    "v_99xnJSBRzkE": {
+        "start": 0,
+        "end": 152.25,
+        "summary_cap": "A boat is sailing in the water with two people in it.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Sailing/99xnJSBRzkE.mp4",
+        "generated_summary": "Video about the sailing boat's demise in this year's British record of Britain."
+    },
+    "v_tMTvOaUYNeg": {
+        "start": 0,
+        "end": 23.96,
+        "summary_cap": "Two children pick up leaves off a lawn and deposit them into a bag while a man stands nearby.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Raking_leaves/tMTvOaUYNeg.mp4",
+        "generated_summary": "Video features autumn leaves being pulled from trees in a child's play."
+    },
+    "v_iGax3fokst8": {
+        "start": 0,
+        "end": 22.97,
+        "summary_cap": "kid is playing with an abs machine while a person is swinging him.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Doing_crunches/iGax3fokst8.mp4",
+        "generated_summary": "Video about a toddler's chair falling on the floor is now making its rounds."
+    },
+    "v_wZgBJlWqWWI": {
+        "start": 0,
+        "end": 54.75,
+        "summary_cap": "A little girl in a pink sweater and red boots is on a jungle gym.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Using_the_monkey_bar/wZgBJlWqWWI.mp4",
+        "generated_summary": "Video displaying a toddler's swing at the fence in front of her mother."
+    },
+    "v_XFijgUPprk4": {
+        "start": 0,
+        "end": 55.87,
+        "summary_cap": "A man does a gymnastics routine on the parallel bars.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Using_parallel_bars/XFijgUPprk4.mp4",
+        "generated_summary": "Video highlights gymn vaulting and jumping hurdles in a high school competition."
+    }
+}

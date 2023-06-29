@@ -1,0 +1,51 @@
+{
+    "v_4Lu8ECLHvK4": {
+        "start": 0,
+        "end": 124.23,
+        "summary_cap": "There are some people including small children near a soccer field.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_kickball/4Lu8ECLHvK4.mp4",
+        "generated_summary": "Video presents the pitch for a pitcher throwing to his son, who is playing in an elementary baseball league."
+    },
+    "v_nezTU6Bq5hM": {
+        "start": 0,
+        "end": 45.19,
+        "summary_cap": "A man is kneeling down on grass.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Cutting_the_grass/nezTU6Bq5hM.mp4",
+        "generated_summary": "Video highlighting the grass rake and shovel digging in a lawn."
+    },
+    "v_D5jLypnn6Ps": {
+        "start": 0,
+        "end": 236.84,
+        "summary_cap": "Several girls are in a big stadium on the field.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Hurling/D5jLypnn6Ps.mp4",
+        "generated_summary": "Video illustrates the rugby league pitch at an international women's stadium in Cork."
+    },
+    "v_yE5whKJ-DE4": {
+        "start": 0,
+        "end": 150.7,
+        "summary_cap": "The young man with headphones is pushing the grass cutter, while the man in gray sweater is guiding him.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Mowing_the_lawn/yE5whKJ-DE4.mp4",
+        "generated_summary": "Video about the lawn mowing incident in a suburban park is getting some attention online."
+    },
+    "v_jQHGyqk21GI": {
+        "start": 0,
+        "end": 178.21,
+        "summary_cap": "People are in the river in a boat rushing downstream as the water splashes them.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Rafting/jQHGyqk21GI.mp4",
+        "generated_summary": "Video features the rafting of a woman in an accident, and rescue crews are seen climbing to the top."
+    },
+    "v_l4UJiGsZVfE": {
+        "start": 1.06,
+        "end": 211.93,
+        "summary_cap": "A group of children race dirt bikes over a series of rolling hills several times.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/BMX/l4UJiGsZVfE.mp4",
+        "generated_summary": "Video highlighting the downhill biking scene in cycling events, and its impact on children."
+    },
+    "v_2rHsoF35eQw": {
+        "start": 0,
+        "end": 136.53,
+        "summary_cap": "People are sitting inside of a raft going over large bumps in the water.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Rafting/2rHsoF35eQw.mp4",
+        "generated_summary": "Video describes rescue of rafts and kayak in river after being hit by a wave from raging gale."
+    }
+}
