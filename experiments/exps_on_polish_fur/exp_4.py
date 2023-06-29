@@ -46,7 +46,7 @@ for id in tqdm(range(id,len(testing))) :
         testing[id]["generated_cap"] = generated_caption
     else:
         testing[id]["generated_cap"] = "_"
-
+    
 # bleu score calculation
 reference_captions = []
 candidate_captions = []
