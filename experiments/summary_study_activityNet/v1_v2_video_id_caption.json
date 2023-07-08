@@ -1,0 +1,422 @@
+{
+    "v_nezTU6Bq5hM": {
+        "start": 0,
+        "end": 45.19,
+        "summary_cap": "A man is kneeling down on grass.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Cutting_the_grass/nezTU6Bq5hM.mp4",
+        "summary_cap_2": "A teen is squatting in the grass cutting grass with hedge shears."
+    },
+    "v_0RIc6mwDRaQ": {
+        "start": 0,
+        "end": 158.52,
+        "summary_cap": "A woman plays a harp in a large church.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_flauta/0RIc6mwDRaQ.mp4",
+        "summary_cap_2": "A woman is sitting at a harp."
+    },
+    "v_D4wcmmQsPng": {
+        "start": 0,
+        "end": 74.44,
+        "summary_cap": "A kid in a yellow shirt is skating around a hockey rink.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_ice_hockey/D4wcmmQsPng.mp4",
+        "summary_cap_2": "A child is shown skating on the ice."
+    },
+    "v_u8ykXBc2Efs": {
+        "start": 0,
+        "end": 104.85,
+        "summary_cap": "A young girl and boy are washing dishes in a kitchen.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Washing_dishes/u8ykXBc2Efs.mp4",
+        "summary_cap_2": "A boy and girl are standing in front of a kitchen sink."
+    },
+    "v_MR0vMF_5hp8": {
+        "start": 0,
+        "end": 118.61,
+        "summary_cap": "We see a person scraping ice off their windshield with the camera inside the car.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Removing_ice_from_car/MR0vMF_5hp8.mp4",
+        "summary_cap_2": "A person scrapes ice off of the windshield of a car with a windshield scraper, while the person in the car tapes them and sporadically talks to the camera."
+    },
+    "v_TqcoukXhXeA": {
+        "start": 0,
+        "end": 176.52,
+        "summary_cap": "Two women are standing flying kites with another young man on a street and they are really happy.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Kite_flying/TqcoukXhXeA.mp4",
+        "summary_cap_2": "Two girls are standing outside a building."
+    },
+    "v_8gUKEh27AFM": {
+        "start": 7.34,
+        "end": 25.75,
+        "summary_cap": "A man swings a ball on a chain around his body and throws it behind him.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Hammer_throw/8gUKEh27AFM.mp4",
+        "summary_cap_2": "A man stands behind a cage."
+    },
+    "v_OOqGdga8t4s": {
+        "start": 0,
+        "end": 22.45,
+        "summary_cap": "little kid is standing on a park holding a pole hitting a pi\u00f1ata.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Hitting_a_pinata/OOqGdga8t4s.mp4",
+        "summary_cap_2": "A little girl is holding a pink bat."
+    },
+    "v_sCxGclun1E0": {
+        "start": 0,
+        "end": 110.06,
+        "summary_cap": "Two children are standing behind a counter stirring ingredients in pots.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Baking_cookies/sCxGclun1E0.mp4",
+        "summary_cap_2": "Two kids are sitting behind a counter stirring the ingredients in the bowls."
+    },
+    "v_LdzaFk5VrD0": {
+        "start": 0,
+        "end": 161.17,
+        "summary_cap": "A girl is sitting in a chair talking.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Putting_in_contact_lenses/LdzaFk5VrD0.mp4",
+        "summary_cap_2": "There's a woman sitting in her bedroom talking about how to wear contact lenses."
+    },
+    "v_gMLA3a0FMS0": {
+        "start": 0,
+        "end": 107.04,
+        "summary_cap": "A skills workshop is shown for how to be a goalie in lacrosse.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_lacrosse/gMLA3a0FMS0.mp4",
+        "summary_cap_2": "There are two players playing lacrosse in an outdoor field while their coach is giving them instructions by the goal net."
+    },
+    "v_BhCNHWQhhEw": {
+        "start": 0,
+        "end": 191.61,
+        "summary_cap": "The video is of someone getting a tattoo on their wrist.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Getting_a_tattoo/BhCNHWQhhEw.mp4",
+        "summary_cap_2": "There's a tattoo artist wearing blue gloves inking a tattoo on a client's arm in a tattoo parlor."
+    },
+    "v_UPwDuuYlLfQ": {
+        "start": 0.7,
+        "end": 32.78,
+        "summary_cap": "A close up of a dog is shown with a person's hands cutting the dog's fur.",
+        "path": "",
+        "summary_cap_2": "A dog is sitting on a table."
+    },
+    "v_yWEFVfX-JoI": {
+        "start": 2.38,
+        "end": 236.93,
+        "summary_cap": "A person canoes down a narrow and rough waterway in a body of water surrounded by many rocks, a stone wall, trees and other people in canoes.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Canoeing/yWEFVfX-JoI.mp4",
+        "summary_cap_2": "Two people are in canoes are paddling down rapids on a river."
+    },
+    "v_5g7bqiT7Y3c": {
+        "start": 0,
+        "end": 5.85,
+        "summary_cap": "A man stands in a field.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Discus_throw/5g7bqiT7Y3c.mp4",
+        "summary_cap_2": "A man is standing on a field behind a fence."
+    },
+    "v_A4L4ObzZ5VE": {
+        "start": 0,
+        "end": 9.36,
+        "summary_cap": "People are riding motor bikes around a dirt race track.",
+        "path": "",
+        "summary_cap_2": "A bunch of dirt bikes are going around a dirt track racing."
+    },
+    "v_SF3pw17yBB4": {
+        "start": 0,
+        "end": 15.14,
+        "summary_cap": "A man peels potatoes over a cutting board with a large knife.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Peeling_potatoes/SF3pw17yBB4.mp4",
+        "summary_cap_2": "A person is holding a large knife in a kitchen."
+    },
+    "v_lKi-hl_KGJ4": {
+        "start": 0,
+        "end": 207.17,
+        "summary_cap": "Several women stand in a room.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Zumba/lKi-hl_KGJ4.mp4",
+        "summary_cap_2": "Several people are standing in a gym."
+    },
+    "v_XFijgUPprk4": {
+        "start": 0,
+        "end": 55.87,
+        "summary_cap": "There are several gymnasts performing in a large gymnasium with some spectators seated in the bleachers.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Using_parallel_bars/XFijgUPprk4.mp4",
+        "summary_cap_2": "A man does a gymnastics routine on the parallel bars."
+    },
+    "v_n_sfeihU3f8": {
+        "start": 0,
+        "end": 78.16,
+        "summary_cap": "A group of hockey players are skating around on the ice.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_ice_hockey/n_sfeihU3f8.mp4",
+        "summary_cap_2": "team are in an ice court playing hockey."
+    },
+    "v_EXxckPa76vc": {
+        "start": 0,
+        "end": 70.15,
+        "summary_cap": "A foosball championship game is shown.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Table_soccer/EXxckPa76vc.mp4",
+        "summary_cap_2": "There are people crowded around a foosball table while two people play."
+    },
+    "v_6HmKyms-U2s": {
+        "start": 0,
+        "end": 82.06,
+        "summary_cap": "Two kids play raquetball in a room.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_squash/6HmKyms-U2s.mp4",
+        "summary_cap_2": "There are two young boys, one in a brown shirt and the other in a red shirt playing racket ball in an indoor court."
+    },
+    "v_uDlyfvy0NOs": {
+        "start": 0,
+        "end": 80.18,
+        "summary_cap": "A news reporter in the field shows how you can bake cookies in a car on a hot  day.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Baking_cookies/uDlyfvy0NOs.mp4",
+        "summary_cap_2": "There's a man standing in the hot sun on an extremely hot day with very high temperatures, showing how he can bake cookies in the open without using an oven."
+    },
+    "v__xgGaxc1jNE": {
+        "start": 0,
+        "end": 184.27,
+        "summary_cap": "A man in a suit sits against a background.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_water_polo/_xgGaxc1jNE.mp4",
+        "summary_cap_2": "A man faces the camera in front of a white wall with logos."
+    },
+    "v_jmerKGN0VPs": {
+        "start": 0,
+        "end": 47.18,
+        "summary_cap": "A man in red sprays his car with water.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Hand_car_wash/jmerKGN0VPs.mp4",
+        "summary_cap_2": "A black car is parked in a parking lot."
+    },
+    "v_ccirM2NGwMA": {
+        "start": 0,
+        "end": 16.15,
+        "summary_cap": "A man blow dries a young child's hair.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Blow-drying_hair/ccirM2NGwMA.mp4",
+        "summary_cap_2": "A kid is in a bathroom."
+    },
+    "v_uF9othvTXn8": {
+        "start": 0,
+        "end": 98.11,
+        "summary_cap": "People are sitting in bumper cars.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Riding_bumper_cars/uF9othvTXn8.mp4",
+        "summary_cap_2": "People are sitting in bumper cars."
+    },
+    "v_8bppcsg07Rc": {
+        "start": 0,
+        "end": 177.1,
+        "summary_cap": "This video shows 9 different ways humans can do the monkey bars.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Using_the_monkey_bar/8bppcsg07Rc.mp4",
+        "summary_cap_2": "A woman is in a gym."
+    },
+    "v_dDN37ufNu84": {
+        "start": 0,
+        "end": 85.26,
+        "summary_cap": "A woman in a blue shirt is standing in front of a table.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Ping-pong/dDN37ufNu84.mp4",
+        "summary_cap_2": "A woman with short hair in a blue shirt is standing with a ping pong paddle at one end of a ping pong table."
+    },
+    "v_ez9pf35BMtc": {
+        "start": 0,
+        "end": 127.85,
+        "summary_cap": "In this video, a male instructor speaks to the camera in a gym.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Using_parallel_bars/ez9pf35BMtc.mp4",
+        "summary_cap_2": "A man demonstrates how to balance on the parallel bars using a student gymnast as an example on a pair of parallel bars in an indoor gymnasium."
+    },
+    "v_YySTmiavdMc": {
+        "start": 0,
+        "end": 36.92,
+        "summary_cap": "A large tractor is driving through a field.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Cutting_the_grass/YySTmiavdMc.mp4",
+        "summary_cap_2": "A large tractor is going through a field."
+    },
+    "v_jLcYOkRvdic": {
+        "start": 0,
+        "end": 111.34,
+        "summary_cap": "A child is helping to shovel snow.",
+        "path": "",
+        "summary_cap_2": "A young child shovels snow with a parent."
+    },
+    "v_8s3b1f6OMw0": {
+        "start": 0,
+        "end": 32.57,
+        "summary_cap": "A group of people are seen swimming across a large pool with various people watch and record from the sidelines.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_water_polo/8s3b1f6OMw0.mp4",
+        "summary_cap_2": "People are swimming in a swimming pool."
+    },
+    "v_60Y0DfZhlHM": {
+        "start": 0,
+        "end": 160.56,
+        "summary_cap": "A person is kneeling down painting something on the ground.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Fixing_the_roof/60Y0DfZhlHM.mp4",
+        "summary_cap_2": "A guy is putting white paste from a can on to a parted surface with a paintbrush."
+    },
+    "v_na4vSFfVi2s": {
+        "start": 0,
+        "end": 112.85,
+        "summary_cap": "A girl plays and falls on the jungle gym.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Using_the_monkey_bar/na4vSFfVi2s.mp4",
+        "summary_cap_2": "A girl is at a playground."
+    },
+    "v_xRuZMDClaQM": {
+        "start": 0,
+        "end": 189.71,
+        "summary_cap": "Two people are fencing on a white mat.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Doing_fencing/xRuZMDClaQM.mp4",
+        "summary_cap_2": "Two men fence indoors in costume as a machine keeps track and lights up red and green and  the teacher and other students watch."
+    },
+    "v_wJYsD3_CS6E": {
+        "start": 0,
+        "end": 85.98,
+        "summary_cap": "A baby in a pink hat is sitting in a swing swinging.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Swinging_at_the_playground/wJYsD3_CS6E.mp4",
+        "summary_cap_2": "The little baby is sitting on a blue swing."
+    },
+    "v_YTuQrhSKkNE": {
+        "start": 0,
+        "end": 100.29,
+        "summary_cap": "People are playing hockey on ice.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Curling/YTuQrhSKkNE.mp4",
+        "summary_cap_2": "A team of men play with curling sticks and play hockey with a glove on the curling floor."
+    },
+    "v_HcZ3irBAcE0": {
+        "start": 0,
+        "end": 29.47,
+        "summary_cap": "A person sits and clips the nails off a cat paw using a nail clipper.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Clipping_cat_claws/HcZ3irBAcE0.mp4",
+        "summary_cap_2": "A white cat is sitting on a man's lap who is wearing red."
+    },
+    "v_RYl-eG9hasI": {
+        "start": 0,
+        "end": 201.59,
+        "summary_cap": "A woman performs a gymnastic baton routine in a gym surrounded by a lightly attended event with people in the bleachers.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Baton_twirling/RYl-eG9hasI.mp4",
+        "summary_cap_2": "People are sitting in bleachers of a gym."
+    },
+    "v_o3Nuqg4w_b8": {
+        "start": 0,
+        "end": 120.86,
+        "summary_cap": "A number of individuals exercise together using a stair step implement.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Doing_step_aerobics/o3Nuqg4w_b8.mp4",
+        "summary_cap_2": "A group of people are exercising while in a step class with music playing in the back ground while a woman in the back of the class exercises alone."
+    },
+    "v_xAoQ6JisbhI": {
+        "start": 0,
+        "end": 60.16,
+        "summary_cap": "A man is sitting behind a desk.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_rubik_cube/xAoQ6JisbhI.mp4",
+        "summary_cap_2": "A man is sitting behind a desk."
+    },
+    "v_XDOtHC4E6L8": {
+        "start": 0,
+        "end": 89.56,
+        "summary_cap": "A man is on parallel bars.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Using_parallel_bars/XDOtHC4E6L8.mp4",
+        "summary_cap_2": "A gymnast is practicing on the parallel bars in the gym."
+    },
+    "v_LbS-C68GTX8": {
+        "start": 0,
+        "end": 164.07,
+        "summary_cap": "The young people are playing dodge ball in the gym.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Dodgeball/LbS-C68GTX8.mp4",
+        "summary_cap_2": "team are playing dodgeball in a wooden roofed court."
+    },
+    "v_OXTQsO5abO4": {
+        "start": 0,
+        "end": 41.38,
+        "summary_cap": "A baby sits on a mat on the ground.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Ironing_clothes/OXTQsO5abO4.mp4",
+        "summary_cap_2": "A small child is holding an iron."
+    },
+    "v_4GrPMa_BE6M": {
+        "start": 0,
+        "end": 22.33,
+        "summary_cap": "A muscular woman and a smaller man are in a room arm wrestling as people cheer them on.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Arm_wrestling/4GrPMa_BE6M.mp4",
+        "summary_cap_2": "These 2 people are arm wrestling each other and having fun."
+    },
+    "v_Xjw9vUwILOE": {
+        "start": 1.03,
+        "end": 98.26,
+        "summary_cap": "A man performs a long jump at a judged professional sports event resulting in medals issued.",
+        "path": "",
+        "summary_cap_2": "man is standing in a race track running and making a long jump and the video shows a repetition."
+    },
+    "v_je6wJ_Ky5wg": {
+        "start": 0,
+        "end": 77.52,
+        "summary_cap": "A number of women exercise together using a stepping type of implement.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Doing_step_aerobics/je6wJ_Ky5wg.mp4",
+        "summary_cap_2": "A lady in a sports bra leads a glass in aerobics using a exercise step."
+    },
+    "v_VSeBb4e9ysU": {
+        "start": 0,
+        "end": 151.84,
+        "summary_cap": "A woman is standing outside in the snow talking to a man.",
+        "path": "",
+        "summary_cap_2": "woman is standing in snowy mountain is interviewing another man."
+    },
+    "v_8wB0BOjuyes": {
+        "start": 0,
+        "end": 16.23,
+        "summary_cap": "Men are playing polo in a field.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_polo/8wB0BOjuyes.mp4",
+        "summary_cap_2": "There are riders on their own horses and they are holding sticks as the horse runs on the grass."
+    },
+    "v_xDD9rWISPpk": {
+        "start": 0,
+        "end": 12.84,
+        "summary_cap": "A man is running down the street wearing stilts.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Powerbocking/xDD9rWISPpk.mp4",
+        "summary_cap_2": "A man is running in pogo stilts."
+    },
+    "v_UHNUmpx0nww": {
+        "start": 0.54,
+        "end": 108.36,
+        "summary_cap": "Two soccer teams play against each other in a field of sand in front of rows of empty bleachers in a soccer stadium.",
+        "path": "",
+        "summary_cap_2": "Two teams are playing football on the sand."
+    },
+    "v_3CeZS6-0NfU": {
+        "start": 0,
+        "end": 18.02,
+        "summary_cap": "A guy is in his garage.",
+        "path": "",
+        "summary_cap_2": "A guy is indoors working in his garage."
+    },
+    "v_SwIxaPdYIJE": {
+        "start": 0,
+        "end": 25.12,
+        "summary_cap": "We see a man in a field in a uniform and a net on a stick.",
+        "path": "",
+        "summary_cap_2": "There are two teams playing lacrosse in a open field."
+    },
+    "v_szl1InYab_k": {
+        "start": 0,
+        "end": 61.3,
+        "summary_cap": "A sofa sits in a room.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Painting_furniture/szl1InYab_k.mp4",
+        "summary_cap_2": "A person is showing you how to paint you couch to a color that you want."
+    },
+    "v_Ii3jLIcf92s": {
+        "start": 0,
+        "end": 31.12,
+        "summary_cap": "A young child is seen playing a drumming game in an arcade and moving his arms up and down.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_drums/Ii3jLIcf92s.mp4",
+        "summary_cap_2": "A man is sitting behind a game."
+    },
+    "v_ecUypvzBAOQ": {
+        "start": 3.15,
+        "end": 151.42,
+        "summary_cap": "A woman, in a kitchen, talks to a camera while cooking spaghetti and preparing a complete spaghetti dish including sauce and toppings.",
+        "path": "",
+        "summary_cap_2": "A women is standing in a kitchen."
+    },
+    "v_rDT4ngAfeHs": {
+        "start": 1.64,
+        "end": 11.7,
+        "summary_cap": "A man is wearing a yellow vest and white hat.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Vacuuming_floor/rDT4ngAfeHs.mp4",
+        "summary_cap_2": "A man is wearing a yellow vest and a mask."
+    },
+    "v_KRSBbX-itrY": {
+        "start": 0,
+        "end": 43.33,
+        "summary_cap": "People are sitting in rafts going down a river.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/River_tubing/KRSBbX-itrY.mp4",
+        "summary_cap_2": "People are tubing down a river."
+    },
+    "v_1517CiM5c0A": {
+        "start": 0,
+        "end": 214.27,
+        "summary_cap": "A native american tribe are on the street in full native dress playing woodwind instruments in front of shops as people walk by on the sidewalk.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_flauta/1517CiM5c0A.mp4",
+        "summary_cap_2": "Several people stand on the street."
+    }
+}
