@@ -1,0 +1,172 @@
+{
+    "v_4Lu8ECLHvK4": {
+        "duration": 124.23,
+        "timestamps": [
+            [
+                0,
+                124.23
+            ],
+            [
+                3.11,
+                8.07
+            ],
+            [
+                6.83,
+                14.91
+            ],
+            [
+                13.66,
+                32.92
+            ],
+            [
+                31.06,
+                39.13
+            ],
+            [
+                36.65,
+                51.55
+            ],
+            [
+                48.45,
+                104.35
+            ],
+            [
+                98.14,
+                124.23
+            ]
+        ],
+        "sentences": [
+            "There are some people including small children near a soccer field.",
+            " A small boy is playing by himself a he stands on a large square tile.",
+            " A man dressed in a blue shirt come running towards him and points out his finger, indicating to the boy to go there.",
+            " The boy gets off the tile and walks to another tile.",
+            " Then another little boy wearing a gray shirt comes to that tile and begins playing.",
+            " The other little boy moves away to another tile.",
+            " There are some man playing with small children on the lawn.",
+            " The little boy comes running towards some children and his father follows him."
+        ],
+        "paragraph_summary": "There are some people including small children near a soccer field. A small boy is playing by himself a he stands on a large square tile. A man dressed in a blue shirt come running towards him and points out his finger, indicating to the boy to go there. The boy gets off the tile and walks to another tile. Then another little boy wearing a gray shirt comes to that tile and begins playing. The other little boy moves away to another tile. There are some man playing with small children on the lawn. The little boy comes running towards some children and his father follows him.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_kickball/4Lu8ECLHvK4.mp4",
+        "zero_shot_generated_paragraph_summary": "Video presents the pitch for a pitcher throwing to his son, who is playing in an elementary baseball league. Video highlighting a kid's first steps, and then catching the baseball pitcher throwing back. Video illustrating the pitcher throwing a baseball to child's face. Video features pitcher throwing a fastball to toddler in the outfield, but kids can't catch it. Video featuring shortstop fielder, a kid's swing and the catch. Video presents a child's play of the ball hitting an opponent. Video highlighting the game's impact on kids baseball and soccer in a park at age three. Video features baseball players hitting the ball in a field, and then throwing it back to kids."
+    },
+    "v_yE5whKJ-DE4": {
+        "duration": 150.7,
+        "timestamps": [
+            [
+                0,
+                150.7
+            ],
+            [
+                18.84,
+                127.34
+            ],
+            [
+                114.53,
+                150.7
+            ]
+        ],
+        "sentences": [
+            "The young man with headphones is pushing the grass cutter, while the man in gray sweater is guiding him.",
+            " Young man in gray sweater is holding the other boys back as they go through the grass.",
+            " The man with headphones is drinking from a cup as the young man in gray sweater have him a back hug."
+        ],
+        "paragraph_summary": "The young man with headphones is pushing the grass cutter, while the man in gray sweater is guiding him. Young man in gray sweater is holding the other boys back as they go through the grass. The man with headphones is drinking from a cup as the young man in gray sweater have him a back hug.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Mowing_the_lawn/yE5whKJ-DE4.mp4",
+        "zero_shot_generated_paragraph_summary": "Video about the lawn mowing incident in a suburban park is getting some attention online. Video about lawn mowing in the park, which was posted by a user named 'dirtbag. Video illustrating the garden of lawn mowing teens in a suburban park is going viral online."
+    },
+    "v_sRN_crwj3B4": {
+        "duration": 225.44,
+        "timestamps": [
+            [
+                0,
+                225.44
+            ],
+            [
+                6.76,
+                11.27
+            ],
+            [
+                12.4,
+                14.65
+            ],
+            [
+                12.4,
+                225.44
+            ],
+            [
+                104.83,
+                175.85
+            ],
+            [
+                176.97,
+                199.52
+            ],
+            [
+                200.64,
+                225.44
+            ]
+        ],
+        "sentences": [
+            "The video takes place in a kitchen.",
+            " A clip of a woman applying wallpaper is shown.",
+            "  The woman then begins speaking to the camera.",
+            " The woman begins demonstrating how to remodel a kitchen.",
+            " She soon applies wallpaper while speaking to the camera.",
+            " The woman then places the final touches of the remodel, such as covering outlets and putting plates on the table.",
+            " The video ends with the camera showing the newly remodeled kitchen."
+        ],
+        "paragraph_summary": "The video takes place in a kitchen. A clip of a woman applying wallpaper is shown.  The woman then begins speaking to the camera. The woman begins demonstrating how to remodel a kitchen. She soon applies wallpaper while speaking to the camera. The woman then places the final touches of the remodel, such as covering outlets and putting plates on the table. The video ends with the camera showing the newly remodeled kitchen.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Hanging_wallpaper/sRN_crwj3B4.mp4",
+        "zero_shot_generated_paragraph_summary": "Video describes the kitchen sink painting job of a young woman. Video describes a kitchen sink with the door open and shower curtain in. Video displaying a contestant's name and age in the kitchen. Video showing a microwave oven melting paint on the wall. Video displaying the cleaning lady's painting, with her hand washing dishes. Video displaying a penis on kitchen table, toilet door and shower. Video illustrating kitchen sink horror showroom floor, which has a hidden secret behind the walls that's not."
+    },
+    "v_OPp3DqFq0O0": {
+        "duration": 238.63,
+        "timestamps": [
+            [
+                0,
+                238.63
+            ],
+            [
+                7.16,
+                238.63
+            ],
+            [
+                36.99,
+                238.63
+            ],
+            [
+                230.28,
+                238.63
+            ]
+        ],
+        "sentences": [
+            "A woman stands in a room.",
+            " She is wearing a blue polka dot dress.",
+            " She is playing a violin.",
+            " She smiles at the end."
+        ],
+        "paragraph_summary": "A woman stands in a room. She is wearing a blue polka dot dress. She is playing a violin. She smiles at the end.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Playing_violin/OPp3DqFq0O0.mp4",
+        "zero_shot_generated_paragraph_summary": "Video displaying violinist's voice and notes in a live performance. Video featuring the violin playing a woman's voice and singing in an unusual way, which is often used to teach Video displaying violinists' reactions to a string of unusual notes. Video displaying the violinist's movements in her right hand."
+    },
+    "v_1926p23ooUM": {
+        "duration": 61.26,
+        "timestamps": [
+            [
+                0,
+                61.26
+            ],
+            [
+                30.32,
+                61.26
+            ]
+        ],
+        "sentences": [
+            "A boy is dribbling a basketball around orange cones.",
+            " He shoots and makes a basket several times."
+        ],
+        "paragraph_summary": "A boy is dribbling a basketball around orange cones. He shoots and makes a basket several times.",
+        "path": "/home/grads/h/hasnat.md.abdullah/open_ended_activity_analysis/zero-shot-video-to-text/data/ActivityNet_captions_dataset/validation/Layup_drill_in_basketball/1926p23ooUM.mp4",
+        "zero_shot_generated_paragraph_summary": "Video featuring the cones basketball drills is a great way to get your kids' attention. Video displaying drills for shooting fundamentals, positional agility and basketball."
+    }
+}
